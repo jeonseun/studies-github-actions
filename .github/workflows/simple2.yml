@@ -27,3 +27,5 @@ jobs:
           node -v
           java --version
           echo $name
+      - name: List installed JDKs
+        run: ls -la /usr/lib/jvm
