@@ -21,6 +21,6 @@ jobs:
       - name: Run script file
         run: source run.sh
       - name: log runner tools version
-        run: 
+        run: |
           node -v
           java --version
