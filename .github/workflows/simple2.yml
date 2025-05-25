@@ -29,3 +29,5 @@ jobs:
           echo $name
       - name: List installed JDKs
         run: ls -la /usr/lib/jvm
+      - name: log page url
+        run: ${{ steps.deployment.outputs.page_url }}
